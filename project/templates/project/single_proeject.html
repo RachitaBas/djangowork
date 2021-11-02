@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+
+{% block content%}
+<h1>Single project templates</h1>
+<ul>
+<li>Title: <a href="/project/{{project.id}}"> {{ project.title }}</li>
+<li>{{project.desciption}}</li>
+
+</ul>
+{% endblock content%}
